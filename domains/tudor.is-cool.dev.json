@@ -1,28 +1,16 @@
 {
-    "description": "Personal portfolio of Tudor Percec, a software developer and student.",
-    "domain": "percect.xyz",
-    "subdomain": "tudor.is-cool.dev",
+  "description": "Portfolio Website",
 
-    "owner": {
-        "repo": "https://github.com/percect/portfolio",
-        "email": "percect@proton.me"
-    },
+  "domain": "is-cool.dev",
+  "subdomain": "tudor",
 
-    "record": {
-        "A": ["1.1.1.1", "1.0.0.1"],
-        "AAAA": ["::1", "::2"],
-        "CNAME": "example.com",
-        "MX": ["mx1.example.com", "mx2.example.com"],
-        "TXT": ["example_verification=1234567890"],
-        "CAA": [
-            { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
-            { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
-        ],
-        "SRV": [
-            { "priority": 10, "weight": 60, "port": 5060, "target": "sipserver.example.com" },
-            { "priority": 20, "weight": 10, "port": 5061, "target": "sipbackup.example.com" }
-        ]
-    },
+  "owner": {
+    "email": "percect@proton.me"
+  },
 
-    "proxied": false
+  "record": {
+    "CNAME": "http://percect.xyz/"
+  },
+
+  "proxied": false
 }
