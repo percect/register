@@ -9,7 +9,7 @@
   },
 
   "record": {
-    "CNAME": "http://percect.xyz/"
+    "CNAME": "percect.xyz"
   },
 
   "proxied": false
